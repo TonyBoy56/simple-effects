@@ -1,11 +1,25 @@
 #walrus-showing {
   display: none;
 }
+
+#lion-showing {
+  display: none;
+}
 .clickable {
   cursor: pointer;
   color: #0088cc;
 }
 
 .clickable:hover {
+  text-decoration: underline;
+}
+
+
+.touch {
+  cursor: pointer;
+color: red;
+}
+
+.touch:hover {
   text-decoration: underline;
 }
