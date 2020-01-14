@@ -1,5 +1,9 @@
 $(document).ready(function() {
-  $("p").click(function() {
-    $("img").show();
+  $(".clickable").click(function() {
+    $("#walrus-showing").fadeToggle();
+    $("#walrus-hidden").fadeToggle();
+    
+    /*$("#walrus-hidden").slideUp();*/
+    
   });
 });
